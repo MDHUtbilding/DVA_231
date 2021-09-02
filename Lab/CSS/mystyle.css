@@ -1,0 +1,48 @@
+body 
+{  
+	background-color: black;
+}  
+
+#topMenu
+{
+	text-align: center;
+	font-family: Arial;
+	box-sizing: border-box;
+}
+
+#bottomMenu
+{
+	box-sizing: content-box;  
+	text-align: center;
+	font-family: Arial;
+}
+
+span
+{
+	background-color: grey;
+
+}
+
+a:link {
+  color: green;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:visited {
+  color: pink;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:hover {
+  color: red;
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+a:active {
+  color: yellow;
+  background-color: transparent;
+  text-decoration: underline;
+}

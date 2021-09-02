@@ -1,0 +1,24 @@
+body 
+{  
+	background-color: black;
+}  
+
+#topMenu
+{
+	background-color: grey;
+	color: white;
+	font-family: Arial;
+	box-sizing: border-box;
+	width: 1050px;
+}
+
+#bottomMenu
+{
+	box-sizing: content-box;  
+  	width: 1050px;
+	align-self: center;
+  
+	background-color: grey;
+	color: white;
+	font-family: Arial;
+}
