@@ -14,7 +14,7 @@ body
 {
 	box-sizing: content-box;  
 	text-align: center;
-	font-family: Arial;
+  font-family: Arial;
 }
 
 span
@@ -24,7 +24,7 @@ span
 }
 
 a:link {
-  color: green;
+  color: white;
   background-color: transparent;
   text-decoration: none;
 }
