@@ -41,7 +41,8 @@ a:hover {
   text-decoration: underline;
 }
 
-a:active {
+a:active 
+{
   color: yellow;
   background-color: transparent;
   text-decoration: underline;
