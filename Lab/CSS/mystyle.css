@@ -52,3 +52,62 @@ div.news1
 {
   padding-top: 200px;
 }
+
+
+/* Testkod för dropdown lista i Index.html */
+ul
+{
+	list-style: none;
+	padding: 2px;
+}
+
+ul li
+{
+	display: block;
+     	float: left;
+}
+
+li ul
+{
+	display: none;
+}
+
+ul li a 
+{
+	display: block;
+	background-color:#0076B9;
+	padding: 10px;
+	text-decoration: none;
+	color: white;
+	width:100px;
+	border: 1px solid red;
+}
+
+ul li a:hover 
+{
+     background-color:#0076B9; 
+     color:white;
+}
+
+li:hover ul 
+{
+     display: block;
+     position: absolute;
+}
+
+li:hover li 
+{
+     float: none;
+}
+
+li:hover a 
+{
+     background-color:#94C548; 
+     color:black;
+}
+
+li:hover li a:hover 
+{
+     background: black;
+     width:100px;
+}
