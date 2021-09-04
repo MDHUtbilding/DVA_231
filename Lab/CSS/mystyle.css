@@ -48,8 +48,7 @@ a:active
   text-decoration: underline;
 }
 
-news.news1
+div.news1
 {
-  position:absolute
-  
+  padding-top: 200px;
 }
