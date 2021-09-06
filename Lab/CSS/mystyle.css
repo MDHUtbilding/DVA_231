@@ -56,6 +56,7 @@ div.news1
   padding-top: 200px;
 }
 
+/* Drop button in topMenu in Index.html. */
 .dropbtn
 {
 	background-color: #000000;
@@ -63,13 +64,14 @@ div.news1
 	padding: 16px;
 	font-size: 16px;
 	border: none;
-	cursor: pointer;
+	cursor: pointer;	/* The cursor is a pointer and indicates a link. */
 }
 
+/* The main drop down properties. */
 .dropdown
 {
-	position: relative;
-	display: inline-block;
+	position: relative;	/* Positioned relative to its normal position. */
+	display: inline-block;	/* The element itself is formatted as an inline element, but it can apply height and width values. */
 }
 
 .dropdown-content 
