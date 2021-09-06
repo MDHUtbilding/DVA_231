@@ -1,20 +1,23 @@
+/* The color of the page will be black. */
 body 
 {  
 	background-color: black;
-}  
+} 
 
+/* In the top menu in Index.html we have this properties. */
 #topMenu
 {
 	text-align: center;
 	font-family: Arial;
-	box-sizing: border-box;
+	box-sizing: border-box;	/* Adding border to the box. */
 }
 
+/* In the bottom menu in Index.html we have this properties. */
 #bottomMenu
 {
 	box-sizing: content-box;  
 	text-align: center;
-  font-family: Arial;
+  	font-family: Arial;
 }
 
 span
