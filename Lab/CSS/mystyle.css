@@ -51,14 +51,13 @@ a:active
   text-decoration: underline;
 }
 
-div.news1
+.newsimage1
 {
-  position: absolute;
- margin-top: 30px;
- margin-left: 200px; 
- display: none;
+	margin-right: -200px;
+	padding-left: 200px;
+	padding-top: 100px;
+	margin-bottom: 200px;
 }
-
 /* Drop button in topmenu in Index.html. */
 .dropbtn
 {
