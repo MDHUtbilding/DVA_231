@@ -57,6 +57,25 @@ a:active
 	padding-left: 200px;
 	padding-top: 100px;
 	margin-bottom: 200px;
+	display: none;
+}
+
+.newsimage2
+{
+	margin-right: -200px;
+	padding-left: 200px;
+	padding-top: 100px;
+	margin-bottom: 200px;
+	display: none;
+}
+
+.newsimage3
+{
+	margin-right: -200px;
+	padding-left: 200px;
+	padding-top: 100px;
+	margin-bottom: 200px;
+	display: none;
 }
 /* Drop button in topmenu in Index.html. */
 .dropbtn
