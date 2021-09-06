@@ -1,3 +1,5 @@
+/* The CSS file that controls Index.html. */
+
 /* The color of the page will be black. */
 body 
 {  
@@ -17,13 +19,12 @@ body
 {
 	box-sizing: content-box;  
 	text-align: center;
-  font-family: Arial;
+  	font-family: Arial;
 }
 
 span
 {
-	background-color: grey;
-
+	background-color: grey;	/* The background color which is in span is grey. */
 }
 
 a:link {
