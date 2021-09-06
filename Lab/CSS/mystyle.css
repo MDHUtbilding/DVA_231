@@ -39,6 +39,7 @@ a:link
 /* A link that has been visited. */
 a:visited 
 {
+	color: white;
   	background-color: transparent;
   	text-decoration: none;
 }
@@ -46,9 +47,7 @@ a:visited
 /* A link with effects when the user has a pointer on it. */
 a:hover 
 {
-	color: #CDCDCD;
-  	background-color: transparent;
-  	text-decoration: underline;
+  	background-color: #CDCDCD;
 }
 
 /* What happens when the link is clicked. */
