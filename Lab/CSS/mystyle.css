@@ -27,29 +27,32 @@ span
 	background-color: grey;	/* The background color which is in span is grey. */
 }
 
-a:link {
-  color: white;
-  background-color: transparent;
-  text-decoration: none;
+a:link 
+{
+	color: white;
+  	background-color: transparent;
+  	text-decoration: none;
 }
 
-a:visited {
-  color: rgb(78, 78, 190);
-  background-color: transparent;
-  text-decoration: none;
+a:visited 
+{
+	color: rgb(78, 78, 190);
+  	background-color: transparent;
+  	text-decoration: none;
 }
 
-a:hover {
-  color: red;
-  background-color: transparent;
-  text-decoration: underline;
+a:hover 
+{
+	color: red;
+  	background-color: transparent;
+  	text-decoration: underline;
 }
 
 a:active 
 {
-  color: yellow;
-  background-color: transparent;
-  text-decoration: underline;
+	color: yellow;
+  	background-color: transparent;
+  	text-decoration: underline;
 }
 
 .newsimage1
@@ -78,6 +81,7 @@ a:active
 	margin-bottom: 200px;
 	display: none;
 }
+
 /* Drop button in topmenu in Index.html. */
 .dropbtn
 {
