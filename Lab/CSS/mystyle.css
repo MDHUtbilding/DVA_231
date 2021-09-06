@@ -55,7 +55,17 @@ a:active
   	text-decoration: underline;
 }
 
-.newsimage1
+.newsimage
+{
+	position: absolute;
+	margin-right: 0px;
+	padding-left: 100px;
+	padding-top: 120px;
+	margin-bottom: 0px;
+	display: none;
+}
+/*
+.newsimage
 {
 	margin-right: -200px;
 	padding-left: 200px;
@@ -63,24 +73,8 @@ a:active
 	margin-bottom: 200px;
 	display: none;
 }
+*/
 
-.newsimage2
-{
-	margin-right: -200px;
-	padding-left: 200px;
-	padding-top: 100px;
-	margin-bottom: 200px;
-	display: none;
-}
-
-.newsimage3
-{
-	margin-right: -200px;
-	padding-left: 200px;
-	padding-top: 100px;
-	margin-bottom: 200px;
-	display: none;
-}
 
 /* Drop button in topmenu in Index.html. */
 .dropbtn
