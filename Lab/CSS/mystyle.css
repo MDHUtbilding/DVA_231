@@ -22,11 +22,13 @@ body
   	font-family: Arial;
 }
 
+/* Element which is used to color a part of. */
 span
 {
 	background-color: grey;	/* The background color which is in span is grey. */
 }
 
+/*  A link that has not been visited. */
 a:link 
 {
 	color: white;
@@ -34,23 +36,24 @@ a:link
   	text-decoration: none;
 }
 
+/* A link that has been visited. */
 a:visited 
 {
-	color: rgb(78, 78, 190);
   	background-color: transparent;
   	text-decoration: none;
 }
 
+/* A link with effects when the user has a pointer on it. */
 a:hover 
 {
-	color: red;
+	color: #CDCDCD;
   	background-color: transparent;
   	text-decoration: underline;
 }
 
+/* What happens when the link is clicked. */
 a:active 
 {
-	color: yellow;
   	background-color: transparent;
   	text-decoration: underline;
 }
