@@ -1,9 +1,10 @@
 /* The CSS file that controls Index.html. */
 
-/* The color of the page will be black. */
+/* The color of the page will be black. Main font is Arial. */
 body 
 {  
 	background-color: black;
+	font-family: Arial;
 }  
 
 /* In the top menu in Index.html we have this properties. */
@@ -67,6 +68,7 @@ a:active
 	display: none;
 }
 /*
+
 .newsimage
 {
 	margin-right: -200px;
@@ -76,7 +78,6 @@ a:active
 	display: none;
 }
 */
-
 
 /* Drop button in topmenu in Index.html. */
 .dropbtn
@@ -96,16 +97,18 @@ a:active
 	display: inline-block;  /* The element itself is formated as an inline element, but it can apply height and width values. */
 }
 
+/* The content in the drop down menu. */
 .dropdown-content 
 {
-	display: none;
-	position: absolute;
+	display: none;	/* No boxes are generated for it. */
+	position: absolute;	/* Position element relative to the nearest positioned ancestor. */
 	background-color: blue;
 	min-width: 160px;
 	box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-	z-index: 1;
+	z-index: 1;	/* The stacking level of an element. */
 }
 
+/* The link(s) in drop down menu. */
 .dropdown-content a 
 {
 	color: white;
@@ -121,9 +124,10 @@ a:active
 
 .dropdown:hover .dropdown-content
 {
-	display: block;
+	display: block;	/* Renders an element with parent’s full width available. */
 }
 
+/* The drop down menu botton. */
 .dropdown:hover .dropbtn 
 {
 	background-color: blue;
