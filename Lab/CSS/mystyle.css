@@ -93,8 +93,8 @@ a:active
 	display: none;	/* No boxes are generated for it. */
 	position: absolute;	/* Position element relative to the nearest positioned ancestor. */
 	background-color: blue;
-	min-width: 160px;
-	box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+	min-width: 160px;	/* Defines the minimum width of an element. */
+	box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);	/* Add shadows. */
 	z-index: 1;	/* The stacking level of an element. */
 }
 
@@ -102,16 +102,19 @@ a:active
 .dropdown-content a 
 {
 	color: white;
-	padding: 12px 16px;
+	padding: 12px 16px;	/* Create space around an element's content, inside of any defined borders. */
 	text-decoration: none;
 	display: block;
 }
 
+
+/* When dropbtn pressed, properties for link. */
 .dropdown-content a:hover
 {
 	background-color: #00008B;
 }
 
+/* When dropbtn pressed, hover content. */
 .dropdown:hover .dropdown-content
 {
 	display: block;	/* Renders an element with parent’s full width available. */
