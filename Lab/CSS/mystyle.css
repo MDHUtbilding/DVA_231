@@ -12,7 +12,11 @@ body
 	display: grid;
 	grid-gap: 10px;
 	width: 100%;
-	padding-bottom: 20px;	
+	padding-bottom: 40px;	
+	padding-left: 10px;
+	padding-right: 10px;
+	padding-top: 20px;
+
 }
 
 /* In the top menu in Index.html we have this properties. */
@@ -20,69 +24,17 @@ body
 {
 	text-align: center;
 	font-family: Arial;
-	box-sizing: border-box; /* Adding border to the box. */  
+	box-sizing: content-box; /* Adding border to the box. */ 
+	padding-left: 50px;
+	padding-right: 50px;
+	
 }
-
-/* In the bottom menu in Index.html we have this properties. */
-#bottomMenu
-{
-	box-sizing: content-box;  
-	text-align: center;
-  	font-family: Arial;
-}
-
-/* Element which is used to color a part of. */
-span
-{
-	background-color: grey;	/* The background color which is in span is grey. */
-}
-
-/*  A link that has not been visited. */
-a:link 
-{
-	color: white;
-  	background-color: transparent;
-  	text-decoration: none;
-}
-
-/* A link that has been visited. */
-a:visited 
-{
-	color: white;
-  	background-color: transparent;
-  	text-decoration: none;
-}
-
-/* A link with effects when the user has a pointer on it. */
-a:hover 
-{
-  	background-color: #CDCDCD;
-}
-
-/* What happens when the link is clicked. */
-a:active 
-{
-  	background-color: transparent;
-  	text-decoration: underline;
-}
-
-.newsimage
-{
-	position: absolute;
-	margin-right: 0px;
-	padding-left: 100px;
-	padding-top: 120px;
-	margin-bottom: 0px;
-	display: none;
-}
-
 
 /* Drop button in topmenu in Index.html. */
 .dropbtn
 {
 	background-color: #000000;
 	color: white;
-	padding: 16px;
 	font-size: 16px;
 	border: none;
 	cursor: pointer;   /* The cursor is a pointer and indicates a link. */
@@ -133,3 +85,60 @@ a:active
 {
 	background-color: blue;
 }
+
+/* In the bottom menu in Index.html we have this properties. */
+#bottomMenu
+{
+	box-sizing: content-box;  
+	text-align: center;
+  	font-family: Arial;
+}
+
+/* Element which is used to color a part of. */
+span
+{
+	background-color: grey;	/* The background color which is in span is grey. */
+	
+	
+}
+
+/*  A link that has not been visited. */
+a:link 
+{
+	color: white;
+  	background-color: transparent;
+  	text-decoration: none;
+}
+
+/* A link that has been visited. */
+a:visited 
+{
+	color: white;
+  	background-color: transparent;
+  	text-decoration: none;
+}
+
+/* A link with effects when the user has a pointer on it. */
+a:hover 
+{
+  	background-color: #CDCDCD;
+}
+
+/* What happens when the link is clicked. */
+a:active 
+{
+  	background-color: transparent;
+  	text-decoration: underline;
+}
+
+.newsimage
+{
+	position: absolute;
+	margin-right: 0px;
+	padding-left: 100px;
+	padding-top: 120px;
+	margin-bottom: 0px;
+	display: none;
+}
+
+
