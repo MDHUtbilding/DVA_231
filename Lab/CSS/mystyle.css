@@ -7,6 +7,14 @@ body
 	font-family: Arial;
 }  
 
+.topcontainer
+{
+	display: grid;
+	grid-gap: 10px;
+	width: 100%;
+	padding-bottom: 20px;	
+}
+
 /* In the top menu in Index.html we have this properties. */
 #topMenu
 {
