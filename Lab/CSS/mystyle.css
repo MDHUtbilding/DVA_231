@@ -11,8 +11,7 @@ body
 {
 	display: grid;
 	grid-gap: 10px;
-	width: 100%;
-	padding-bottom: 40px;	
+	width: 100%;	
 	padding-left: 10px;
 	padding-right: 10px;
 	padding-top: 20px;
@@ -25,8 +24,8 @@ body
 	text-align: center;
 	font-family: Arial;
 	box-sizing: content-box; /* Adding border to the box. */ 
-	padding-left: 50px;
-	padding-right: 50px;
+	display: grid;
+	grid-template-columns: 100%;
 	
 }
 
@@ -45,6 +44,7 @@ body
 {
 	position: relative; /* Positioned relative to its normal position. */
 	display: inline-block;  /* The element itself is formated as an inline element, but it can apply height and width values. */
+	padding-bottom: 50px;
 }
 
 /* The content in the drop down menu. */
@@ -98,7 +98,6 @@ body
 span
 {
 	background-color: grey;	/* The background color which is in span is grey. */
-	
 	
 }
 
