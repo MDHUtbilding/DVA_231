@@ -140,4 +140,56 @@ a:active
 	display: none;
 }
 
+*
+{
+  margin: 0;
+  padding: 0;
+  font-family: Arial;
+  font-size: 14px;
+}
 
+.wrapper
+{
+  padding-top: 10px;
+  margin: 0 auto;
+  overflow: hidden;
+  width: 1100px;
+}
+
+.menu ul
+{
+  margin-left: 0;
+  list-style: none;
+  text-align: center;
+}
+
+.menu ul li 
+{
+  display: inline-block;
+  background-color: #777777;
+}
+
+.menu ul li a 
+{
+  display: block;
+  padding: 10px;
+  color: #dddddd;
+  text-decoration: none;
+}
+
+.menu ul li a:hover
+{
+  background: #eeeeee;
+  color: #FFF;
+}
+
+.menu li:last-child 
+{
+	border-right: none;
+}
+
+.menu li 
+{
+	float: left;
+  	border-right: 1px solid #eeeeee;
+}
