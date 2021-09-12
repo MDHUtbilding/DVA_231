@@ -25,7 +25,7 @@ body
 	font-family: Arial;
 	box-sizing: content-box; /* Adding border to the box. */ 
 	display: grid;
-	grid-template-columns: 100%;
+
 	
 }
 
@@ -44,7 +44,6 @@ body
 {
 	position: relative; /* Positioned relative to its normal position. */
 	display: inline-block;  /* The element itself is formated as an inline element, but it can apply height and width values. */
-	padding-bottom: 50px;
 }
 
 /* The content in the drop down menu. */
@@ -98,6 +97,10 @@ body
 span
 {
 	background-color: grey;	/* The background color which is in span is grey. */
+	margin-left: 200px;
+	margin-right: 400px;
+	margin-top: 20px;
+	padding-top: 0;
 	
 }
 
@@ -120,7 +123,7 @@ a:visited
 /* A link with effects when the user has a pointer on it. */
 a:hover 
 {
-  	background-color: #CDCDCD;
+  	background-color: #055b7e;
 }
 
 /* What happens when the link is clicked. */
@@ -173,7 +176,7 @@ a:active
 {
   display: block;
   padding: 10px;
-  color: #dddddd;
+  color: #643838;
   text-decoration: none;
 }
 
@@ -191,7 +194,7 @@ a:active
 .menu li 
 {
 	float: left;
-  	border-right: 1px solid #eeeeee;
+  	border-right: 1px solid #f70707; /* the lines between the botton menu*/
 }
 
 
