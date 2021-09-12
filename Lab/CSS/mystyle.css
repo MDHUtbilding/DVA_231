@@ -269,3 +269,47 @@ border: 5px solid #555;
   grid-row-start: 3;
   grid-row-end: 3;
 }
+
+#topMenu .search-container {
+  float: right;
+}
+
+#topMenu input[type=text] {
+  padding: 6px;
+  margin-top: 8px;
+  font-size: 17px;
+  border: none;
+background-color: #444444;
+}
+
+#topMenu .search-container button {
+  float: right;
+  padding: 6px 10px;
+  margin-top: 8px;
+  margin-right: 16px;
+  background: #444444;
+  font-size: 17px;
+  border: none;
+  cursor: pointer;
+}
+
+#topMenu .search-container button:hover {
+  background: #444444;
+}
+
+@media screen and (max-width: 600px) {
+  #topMenu .search-container {
+    float: none;
+  }
+  #topMenu a, #topMenu input[type=text], #topMenu .search-container button {
+    float: none;
+    display: block;
+    text-align: left;
+    width: 100%;
+    margin: 0;
+    padding: 14px;
+  }
+  #topMenu input[type=text] {
+    border: 1px solid #444444;  
+  }
+}
