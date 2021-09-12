@@ -5,7 +5,7 @@
 <head>
 	<link rel="stylesheet" type="text/css" href="../CSS/mystyle.css">	<!-- Link to CSS file that is connected to this page. -->
 	<script src="../JavaScript/myscript.js"></script>	<!-- Link to Javascript that is connected to this page. -->
-	
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 	<title>Lab - NÄSA</title>	<!-- Title of the page. -->
 </head>
 <body>
@@ -87,7 +87,12 @@
 					</div>
 				</div>
 
-				<input type="text" placeholder="Search..">	<!-- Search box that for now does nothing. -->
+				<div class="search-container">
+    <form action="/action_page.php">
+      <input type="text" placeholder="Search.." name="search">
+      <button type="submit"><i class="fa fa-search"></i></button>
+    </form>
+  </div>
 			</span>
 		</div>
 
