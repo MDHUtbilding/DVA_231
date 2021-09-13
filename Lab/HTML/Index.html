@@ -9,6 +9,11 @@
 	<link rel="stylesheet" type="text/css" href="../CSS/topMenu.css">
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 	<title>Lab - NÄSA</title>	<!-- Title of the page. -->
+
+
+<style>
+.bla {display:none;}
+</style>
 </head>
 <body>
 	<div id="topcontainer">
@@ -118,7 +123,34 @@
 
 	<!-- The bottom part of the page. For now only contains images. -->
 	<div class="grid-container">
-  		<div class="item1"><img id="test" src="../Img/Earth.jpg"></div>
+  		<div class="item1">
+			<img class="bla" src="../Img/Earth.jpg">
+			<img class="bla" src="../Img/Venus.jpg">
+			<img class="bla" src="../Img/Mars.jpg">
+		</div>
+
+		<script>
+		var myIndex = 0;
+		carousel();
+
+		function carousel()
+		{
+			var i;
+			var x = document.getElementsByClassName("bla");
+			
+			for (i = 0; i < x.length; i++)
+				x[i].style.display = "none";  
+
+			myIndex++;
+
+			if (myIndex > x.length)
+				myIndex = 1
+
+			x[myIndex-1].style.display = "block";  
+			setTimeout(carousel, 2000); // Change image every 2 seconds
+		}
+		</script>
+
   		<div class="item2"><img id="test" src="../Img/Mars.jpg"></div>
 		<div class="item3"><img id="test" src="../Img/Venus.jpg"></div>
     		<div class="item4"><img id="test" src="../Img/test.jpg"></div>
