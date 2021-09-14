@@ -38,7 +38,7 @@
 .menu ul li a:hover
 {
   background: #eeeeee;
-  color: #FFF;
+  color: rgb(112, 41, 41);
 }
 
 .menu li:last-child 
