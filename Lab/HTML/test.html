@@ -1,0 +1,309 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+.topcontainer
+{
+	display: grid;
+	grid-gap: 10px;
+	width: 100%;	
+	padding-left: 10px;
+	padding-right: 10px;
+	padding-top: 20px;
+}
+
+/* In the top menu in Index.html we have this properties. */
+#topMenu
+{
+	text-align: center;
+	font-family: Arial;
+	box-sizing: content-box; /* Adding border to the box. */ 
+	display: grid;
+	grid-template-columns: 100%;
+}
+
+/* Drop button in topmenu in Index.html. */
+.dropbtn
+{
+	background-color: #000000;
+	color: white;
+	font-size: 16px;
+	border: none;
+	cursor: pointer;   /* The cursor is a pointer and indicates a link. */
+}
+
+/* The main drop down properties. */
+.dropdown
+{
+	position: relative; /* Positioned relative to its normal position. */
+	display: inline-block;  /* The element itself is formated as an inline element, but it can apply height and width values. */
+	padding-bottom: 50px;
+}
+
+/* The content in the drop down menu. */
+.dropdown-content 
+{
+	display: none;	/* No boxes are generated for it. */
+	position: absolute;	/* Position element relative to the nearest positioned ancestor. */
+	background-color: blue;
+	min-width: 160px;	/* Defines the minimum width of an element. */
+	box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);	/* Add shadows. */
+	z-index: 1;	/* The stacking level of an element. */
+}
+
+/* The link(s) in drop down menu. */
+.dropdown-content a 
+{
+	color: white;
+	padding: 12px 16px;	/* Create space around an element's content, inside of any defined borders. */
+	text-decoration: none;
+	display: block;
+}
+
+/* When dropbtn pressed, properties for link. */
+.dropdown-content a:hover
+{
+	background-color: #00008B;
+}
+
+/* When dropbtn pressed, hover content. */
+.dropdown:hover .dropdown-content
+{
+	display: block;	/* Renders an element with parent’s full width available. */
+}
+
+/* The drop down menu botton. */
+.dropdown:hover .dropbtn 
+{
+	background-color: blue;
+}
+
+
+
+
+
+
+#topMenu .search-container {
+  float: right;
+}
+
+#topMenu input[type=text] {
+  padding: 6px;
+  margin-top: 8px;
+  font-size: 17px;
+  border: none;
+background-color: #444444;
+}
+
+#topMenu .search-container button {
+  float: right;
+  padding: 6px 10px;
+  margin-top: 8px;
+  margin-right: 16px;
+  background: #444444;
+  font-size: 17px;
+  border: none;
+  cursor: pointer;
+}
+
+#topMenu .search-container button:hover {
+  background: #444444;
+}
+
+@media screen and (max-width: 600px) {
+  #topMenu .search-container {
+    float: none;
+  }
+  #topMenu a, #topMenu input[type=text], #topMenu .search-container button {
+    float: none;
+    display: block;
+    text-align: left;
+    width: 100%;
+    margin: 0;
+    padding: 14px;
+  }
+  #topMenu input[type=text] {
+    border: 1px solid #444444;  
+  }
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+li {
+  float: left;
+  border-right:1px solid #bbb;
+}
+
+li:last-child {
+  border-right: none;
+}
+
+li a {
+  display: block;
+  color: white;
+
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover:not(.active) {
+  background-color: #111;
+}
+
+.active {
+  background-color: #04AA6D;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: 125px  auto auto;
+  grid-gap: 10px;
+  background-color: #2196F3;
+  padding: 10px;
+}
+
+.grid-container > item2 {
+  background-color: rgba(255, 255, 255, 0.8);
+  padding: 20px 0;
+  font-size: 30px;
+}
+
+.grid-container > item3 {
+  background-color: rgba(255, 255, 255, 0.8);
+  padding: 20px 0;
+  font-size: 30px;
+}
+
+.item1 {
+  grid-row-start: 1;
+  grid-row-end: 3;
+}
+
+.item2 {
+  grid-column-start: 2;
+  grid-column-end: 4;
+  
+  padding-left: 50px;
+}
+
+.item3 {
+  grid-column-start: 2;
+  grid-column-end: 4;
+  padding-right: 50px;
+}
+</style>
+</head>
+<body>
+
+<div class="grid-container">
+  <div class="item1"> <img src="img_5terre.jpg" width="100%"></div>
+  <div class="item2">
+  	<div id="topcontainer">
+		<!-- The top menu. Contains dropdown list with links that leads no where. -->
+		<div id="topMenu">	
+			<span>	<!-- The <span> tag is an inline container used to mark up a part of a text, or a part of a document. -->
+				<div class="dropdown">
+					<button class="dropbtn">Missions</button>	<!-- This button opens the drop down list with links. --> 	
+			
+					<div class="dropdown-content">
+						<a href="#">Commercial Crew</a>
+						<a href="#">International Spacestation</a>
+						<a href="#">Parker Solar Probe</a>
+					</div>
+				</div>
+		
+				<div class="dropdown">
+					<button class="dropbtn">Galleries</button>
+				
+					<div class="dropdown-content">
+						<a href="#">Image of the day</a>
+						<a href="#">Ultra high-def Videos</a>
+						<a href="#">Images</a>
+						<a href="#">Videos</a>
+					</div>
+				</div>
+
+				<div class="dropdown">
+					<button class="dropbtn">NASA TV</button>
+				
+					<div class="dropdown-content">
+						<a href="#">Link 1</a>
+						<a href="#">Link 2</a>
+						<a href="#">Link 3</a>
+					</div>
+				</div>
+
+				<div class="dropdown">
+					<button class="dropbtn">Follow NASA</button>
+				
+					<div class="dropdown-content">
+						<a href="#">Get involved</a>
+						<a href="#">NASA Live</a>
+						<a href="#">Social media</a>
+					</div>
+				</div>
+			
+				<div class="dropdown">
+					<button class="dropbtn">Downloads</button>
+			
+					<div class="dropdown-content">
+						<a href="#">Apps</a>
+						<a href="#">Podcasts</a>
+						<a href="#">Third rock radio</a>
+					</div>
+				</div>
+
+				<div class="dropdown">
+					<button class="dropbtn">About</button>
+			
+					<div class="dropdown-content">
+						<a href="#">About NASA</a>
+						<a href="#">Leadership</a>
+						<a href="#">People of NASA</a>
+					</div>
+				</div>
+
+				<div class="dropdown">
+					<button class="dropbtn">NASA Audiences</button>
+			
+					<div class="dropdown-content">
+						<a href="#">For Media</a>
+						<a href="#">For Educators</a>
+						<a href="#">For students</a>
+					</div>
+				</div>
+
+				<div class="search-container">
+    					<form action="/action_page.php">
+      						<input type="text" placeholder="Search.." name="search">
+      						<button type="submit"><i class="fa fa-search"></i></button>
+    					</form>
+  				</div>
+			</span>
+		</div>
+	</div>
+  </div> 
+  <div class="item3">
+  	<div class="wrapper">
+  			<div class="menu">
+    				<ul>
+  <li><a class="active" href="#home">Home</a></li>
+  <li><a href="#news">News</a></li>
+  <li><a href="#contact">Contact</a></li>
+  <li style="float:right"><a href="#about">About</a></li>
+</ul>
+			</div>
+		</div>
+  </div> 
+ 
+</div>
+
+</body>
+</html>
