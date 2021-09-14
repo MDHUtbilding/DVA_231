@@ -29,17 +29,6 @@
 border: 1px solid #555;
 }
 
-#col4
-{
- 
-}
-
-#col6
-{
-  width: 45%;
-  height: 100%;
-  margin: center;
-}
 
 .item2 {
   background-color: blanchedalmond;
@@ -79,6 +68,12 @@ border: 1px solid #555;
   grid-row-end: 3;
 }
 
+.item5.globe
+{
+  width:100%;
+  height:100%;
+  border: 1px solid rgb(8, 2, 2);
+}
 
 .item6 {
   grid-column-start: 2;
