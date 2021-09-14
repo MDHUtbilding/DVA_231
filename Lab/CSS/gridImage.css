@@ -29,6 +29,13 @@
 border: 1px solid #555;
 }
 
+.item2 p
+{
+  background-color: aliceblue;
+  color: black;
+}
+
+
 .item2 {
   grid-column-start: 1;
   grid-column-end: 2;
