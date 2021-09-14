@@ -66,6 +66,11 @@ border: 1px solid #555;
   grid-row-end: 3;
 }
 
+.item5 iframe
+{
+  width: auto;
+}
+
 .item6 {
   grid-column-start: 2;
   grid-column-end: 4;
