@@ -39,7 +39,7 @@ body
 	border: none;
 	cursor: pointer;   /* The cursor is a pointer and indicates a link. */
 	border-right: 1px solid dimgray;
-	float: left;
+	
 }
 
 .dropbtn:last-child
