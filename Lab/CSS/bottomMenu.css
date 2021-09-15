@@ -61,12 +61,8 @@
   	font-family: Arial;
 }
 
-/* Element which is used to color a part of. */
-span
-{
-	background-color: grey;	/* The background color which is in span is grey. */
-	
-}
+
+
 
 /*  A link that has not been visited. */
 a:link 
