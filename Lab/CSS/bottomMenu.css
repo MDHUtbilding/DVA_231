@@ -1,94 +1,96 @@
+/* File: bottomMenu.css
+   Connected to file: Index.html
+   Section: 2rd part of Index.html. second navigationbar (grey),
+	below the first navigationbar (grey) and above the grid-image.
+*/
+
 *
 {
-  margin: 0;
-  padding: 0;
-  font-family: Arial;
-  font-size: 14px;
+    margin: 0;
+    padding: 0;
+    font-family: Arial;
+    font-size: 14px;
 }
 
 .wrapper
 {
-  padding-top: 10px;
-  margin: 0 auto;
-  overflow: hidden;
-  width: 1100px;
+    padding-top: 10px;
+    margin: 0 auto;
+    overflow: hidden;
+    width: 1100px;
 }
 
 .menu ul
 {
-  margin-left: 0;
-  list-style: none;
-  text-align: center;
+    margin-left: 0;
+    list-style: none;
+    text-align: center;
 }
 
 .menu ul li 
 {
-  display: inline-block;
-  background-color: #777777;
+    display: inline-block;
+    background-color: #777777;
 }
 
 .menu ul li a 
 {
-  display: block;
-  padding: 10px;
-  color: #dddddd;
-  text-decoration: none;
+    display: block;
+    padding: 10px;
+    color: #dddddd;
+    text-decoration: none;
 }
 
 .menu ul li a:hover
 {
-  background: #eeeeee;
-  color: rgb(112, 41, 41);
+    background: #eeeeee;
+    color: rgb(112, 41, 41);
 }
 
 .menu li:last-child 
 {
-	border-right: none;
+    border-right: none;
 }
 
 .menu li 
 {
-	float: left;
-  	border-right: 1px solid #eeeeee;
+    float: left;
+    border-right: 1px solid #eeeeee;
 }
-
 
 /* In the bottom menu in Index.html we have this properties. */
 #bottomMenu
 {
-	box-sizing: content-box;  
-	text-align: center;
-  	font-family: Arial;
+    box-sizing: content-box;  
+    text-align: center;
+    font-family: Arial;
 }
-
-
-
 
 /*  A link that has not been visited. */
 a:link 
 {
-	color: white;
-  	background-color: transparent;
-  	text-decoration: none;
+    color: white;
+    background-color: transparent;
+    text-decoration: none;
 }
 
 /* A link that has been visited. */
 a:visited 
 {
-	color: white;
-  	background-color: transparent;
-  	text-decoration: none;
+    color: white;
+    background-color: transparent;
+    text-decoration: none;
 }
 
 /* A link with effects when the user has a pointer on it. */
 a:hover 
 {
-  	background-color: #CDCDCD;
+    background-color: #CDCDCD;
 }
 
 /* What happens when the link is clicked. */
 a:active 
 {
-  	background-color: transparent;
-  	text-decoration: underline;
+    background-color: transparent;
+    text-decoration: underline;
 }
