@@ -1,48 +1,56 @@
-.grid-container {
-  display: grid;
-  justify-content: center;
-  grid-template-columns: 350px 350px 350px 350px; /*Make the grid smaller than the container*/
-  grid-template-rows: 250px 250px 250px 250px; /*Make the grid smaller than the container*/
-  grid-gap: 10px;
-  padding: 10px;
+/* File: gridImage.css
+   Connected to file: Index.html
+   Section: 3rd part of Index.html. The grid-area where the images are,
+	below the second navigationbar (grey).
+*/
+
+.grid-container
+{
+  	display: grid;
+  	justify-content: center;
+  	grid-template-columns: 350px 350px 350px 350px;	/*Make the grid smaller than the container*/
+  	grid-template-rows: 250px 250px 250px 250px;	/*Make the grid smaller than the container*/
+  	grid-gap: 10px;
+  	padding: 10px;
 }
 
-.grid-container > div {
-  text-align: center;
-  font-size: 30px;
+.grid-container > div
+{
+	text-align: center;
+  	font-size: 30px;
 }
 
-.item1 {
-  grid-column-start: 1;
-  grid-column-end: 5;
+.item1 
+{
+	grid-column-start: 1;
+  	grid-column-end: 5;
 	grid-row-start: 1;
 	grid-row-end: 2;
 	width:100%;
-  height:100%;
+  	height:100%;
 }
 
 #test
 {
 	width:100%;
         height:100%;
-border: 1px solid rgb(0, 0, 0);
+	border: 1px solid rgb(0, 0, 0);
 }
 
-
-.item2 {
-  background-color: blanchedalmond;
-  grid-column-start: 1;
-  grid-column-end: 2;
-  grid-row-start: 2;
-  grid-row-end: 2;
+.item2
+{
+	background-color: blanchedalmond;
+  	grid-column-start: 1;
+  	grid-column-end: 2;
+  	grid-row-start: 2;
+  	grid-row-end: 2;
 	width:100%;
         height:100%;
         background-image: url(../Img/climatetool.JPG);
         background-size: 400px 250px;
-              background-repeat: no-repeat;
+        background-repeat: no-repeat;
         border: 5px solid #000;
 }
-
 
 .item3
 {
@@ -56,58 +64,89 @@ border: 1px solid rgb(0, 0, 0);
 	border: 5px solid #000;
 }
 
-.item4 {
-  grid-column-start: 3;
-  grid-column-end: 5;
-  grid-row-start: 2;
-  grid-row-end: 3;
+.item4 
+{
+	grid-column-start: 3;
+  	grid-column-end: 5;
+  	grid-row-start: 2;
+  	grid-row-end: 3;
 }
 
 
-.item5 {
-  grid-column-start: 1;
-  grid-column-end: 2;
-  grid-row-start: 3;
-  grid-row-end: 3;
-  background-image: url(../Img/airtaxi.JPG);
+.item5 
+{
+	grid-column-start: 1;
+  	grid-column-end: 2;
+  	grid-row-start: 3;
+  	grid-row-end: 3;
+  	background-image: url(../Img/airtaxi.JPG);
 	background-size: 350px 250px;
         background-repeat: no-repeat;
 	border: 5px solid #000;
 }
 
-.item6 {
-  grid-column-start: 2;
-  grid-column-end: 4;
-  grid-row-start: 3;
-  grid-row-end: 3;
-  background-image: url(../Img/hurricane.JPG);
+.item6
+{
+	grid-column-start: 2;
+  	grid-column-end: 4;
+  	grid-row-start: 3;
+  	grid-row-end: 3;
+  	background-image: url(../Img/hurricane.JPG);
 	background-size: 700px 250px;
         background-repeat: no-repeat;
 	border: 0.5px solid #000;
 }
 
-
-.item7 {
-  grid-column-start: 4;
-  grid-column-end: 5;
-  grid-row-start: 3;
-  grid-row-end: 3;
+.item7
+{
+	grid-column-start: 4;
+  	grid-column-end: 5;
+  	grid-row-start: 3;
+  	grid-row-end: 3;
 }
 
 #iframe
 {
-  width:100%;
+	width:100%;
         height:100%;
-border: 1px solid #555;
+	border: 1px solid #555;
 }
+
 .bla
 {
 	width:100%;
-  height:100%;
-  border: 1px solid rgb(8, 2, 2);
+	height:100%;
+  	border: 1px solid rgb(8, 2, 2);
 }
 
+.text_wrap_right
+{
+	margin: 200px 0px;
+	width: 100%;
+	height: 42px;
+	background: white;
+	color: black;
+	border-left: 1px solid #000;
+	color: transparent;
+	opacity: 0.5;
+	content:"";
+}
 
+.text_wrap_right:hover
+{
+    	margin: 0px 0px;
+    	width: 100%;
+    	height: 100%;
+    	float: right;
+    	background: white;
+    	color: black;
+    	border-left: 2px solid #000;
+    	opacity: 0.5;
+    	content: attr(test);
+}
+
+/* This code will most likely to be removed. */
+/*
 .item2 #testText
 {
     background-color: #000000;
@@ -132,29 +171,4 @@ border: 1px solid #555;
 {
     display: block;
 }
-
-.text_wrap_right
-{
-	margin: 200px 0px;
-	width: 100%;
-	height: 42px;
-	background: white;
-	color: black;
-	border-left: 1px solid #000;
-	color: transparent;
-	opacity: 0.5;
-	content:"";
-}
-
-.text_wrap_right:hover
-{
-    margin: 0px 0px;
-    width: 100%;
-    height: 100%;
-    float: right;
-    background: white;
-    color: black;
-    border-left: 2px solid #000;
-    opacity: 0.5;
-    content: attr(test);
-}
+*/
