@@ -17,7 +17,6 @@
 .grid-container > div
 {
 	text-align: center;
-  	font-size: 30px;
 }
 
 .item1 
@@ -39,15 +38,12 @@
 
 .item2
 {
-	background-color: blanchedalmond;
   	grid-column-start: 1;
   	grid-column-end: 2;
   	grid-row-start: 2;
   	grid-row-end: 2;
-	width:100%;
-        height:100%;
         background-image: url(../Img/climatetool.JPG);
-        background-size: 400px 250px;
+        background-size: 350px 250px;
         background-repeat: no-repeat;
         border: 5px solid #000;
 }
@@ -142,33 +138,6 @@
     	color: black;
     	border-left: 2px solid #000;
     	opacity: 0.5;
-    	content: attr(test);
+    	content: attr(moreText);
 }
 
-/* This code will most likely to be removed. */
-/*
-.item2 #testText
-{
-    background-color: #000000;
-    width: 100%;
-    height: 100%;
-}
-
-.item2 .textExample
-{
-    background-color: #ffffff;
-    width: 100%;
-    height: 100%;
-    display: none;
-}
-
-.item2:hover #testText
-{
-    display: none;
-}
-
-.item2:hover .textExample 
-{
-    display: block;
-}
-*/
