@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+
+.grid-navigation
+{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-gap: 10px;
+    background-color: #2196F3;
+    padding: 10px;
+}
+
+.grid-navigation > div
+{
+    background-color: rgba(255, 255, 255, 0.8);
+    text-align: center;
+    padding: 20px 0;
+    font-size: 30px;
+}
+
+.nasaLogo
+{
+    grid-row-start: 1;
+    grid-row-end: 3;
+}
+
+.topMenu
+{
+    grid-row-start: 1;
+    grid-row-end: 1;
+    grid-column-start: 2;
+    grid-column-end: 4;
+}
+
+.bottomMenu
+{
+    grid-row-start: 2;
+    grid-row-end: 2;
+    grid-column-start: 2;
+    grid-column-end: 4;
+}
+
+.grid-image
+{
+    display: grid;
+    grid-template-columns: 350px 350px 350px 350px;	/*Make the grid smaller than the container*/
+    grid-template-rows: 250px 250px 250px 250px;	/*Make the grid smaller than the container*/
+    grid-gap: 10px;
+    padding: 10px;
+    background-color: red;
+}
+
+.grid-image > div
+{
+    background-color: rgba(255, 255, 255, 0.8);
+    text-align: center;
+    padding: 20px 0;
+    font-size: 30px;
+}
+
+.image1
+{
+    grid-column-start: 1;
+    grid-column-end: 5;
+    grid-row-start: 1;
+    grid-row-end: 2;
+}
+
+.image2
+{
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 2;
+    grid-row-end: 2;
+}
+
+.image3
+{
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 2;
+    grid-row-end: 3;
+}
+
+.image4
+{
+    grid-column-start: 3;
+    grid-column-end: 5;
+    grid-row-start: 2;
+    grid-row-end: 3;
+}
+
+.image5
+{
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 3;
+    grid-row-end: 3;
+}
+
+.image6
+{
+    grid-column-start: 2;
+    grid-column-end: 4;
+    grid-row-start: 3;
+    grid-row-end: 3;
+}
+
+.image7
+{
+    grid-column-start: 4;
+    grid-column-end: 5;
+    grid-row-start: 3;
+    grid-row-end: 3;
+}
+
+
+</style>
+</head>
+<body>
+
+<div class="grid-navigation">
+  <div class="nasaLogo">1</div>
+  <div class="topMenu">2</div>
+  <div class="bottomMenu">3</div>  
+</div>
+
+<div class="grid-image">
+  <div class="image1">1</div>
+  <div class="image2">2</div>
+  <div class="image3">3</div>  
+  <div class="image4">4</div> 
+  <div class="image5">5</div>
+  <div class="image6">6</div>
+  <div class="image7">7</div>
+</div>
+
+</body>
+</html>
