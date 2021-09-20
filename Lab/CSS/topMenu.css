@@ -26,7 +26,7 @@ body
 	padding: 5px; 
 	display: inline-block;
 	grid-template-columns: 100%;
-	margin-left: -120px;
+	margin-left: 400px;
 }
 
 /* Drop button in topmenu in Index.html. */
@@ -39,12 +39,13 @@ body
 	border: none;
 	cursor: pointer;   /* The cursor is a pointer and indicates a link. */
 	border-right: 1px solid dimgray;
+	
 }
-
-.dropdown.dropbtn:last-child
+.topMenu.dropdown.dropbtn:last-child
 {
 	border-right: none;
 }
+
 
 /* The main drop down properties. */
 .dropdown
