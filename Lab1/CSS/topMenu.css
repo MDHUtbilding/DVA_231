@@ -106,7 +106,7 @@ body
 #topMenu input[type=text] 
 {
 	padding: 6px;
-  	margin-top: 8px;
+  
   	font-size: 17px;
   	border: none;
 	background-color: #444444;
@@ -116,7 +116,7 @@ body
 {
   	float: right;
   	padding: 6px 10px;
-  	margin-top: 8px;
+  	
   	background: #444444;
   	font-size: 17px;
   	border: none;
