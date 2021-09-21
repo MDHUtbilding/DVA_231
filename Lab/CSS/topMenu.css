@@ -51,7 +51,7 @@ body
 /* The main drop down properties. */
 .dropdown
 {
-	position: relative; /* Positioned relative to its normal position. */
+	 /* Positioned relative to its normal position. */
 	display: inline-block;  /* The element itself is formated as an inline element, but it can apply height and width values. */
 	
 }
@@ -77,7 +77,7 @@ body
 }
 
 /* When dropbtn pressed, properties for link. */
-.dropdown-content a:hover
+.dropbtn:hover
 {
 	background-color: #00008B;
 }

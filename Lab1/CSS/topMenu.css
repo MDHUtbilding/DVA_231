@@ -35,10 +35,10 @@ body
 /* Drop button in topmenu in Index.html. */
 .dropbtn
 {
-	background-color: #000000;
-	color: white;
+	
+	color: rgb(10, 8, 8);
 	font-size: 16px;
-	padding: 5px;
+	padding: 2px;
 	border: none;
 	cursor: pointer;   /* The cursor is a pointer and indicates a link. */
 	border-right: 1px solid dimgray;
