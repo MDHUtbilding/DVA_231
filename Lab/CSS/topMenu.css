@@ -41,7 +41,7 @@ body
 	border-right: 1px solid dimgray;
 	
 }
-.topMenu.dropdown.dropbtn:last-child
+#topMenu .dropbtn:last-child
 {
 	border-right: none;
 }
