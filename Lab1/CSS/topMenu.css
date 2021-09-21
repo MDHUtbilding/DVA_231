@@ -15,6 +15,7 @@ body
 	padding-left: 10px;
 	padding-right: 10px;
 	padding-top: 20px;
+	margin-right: -200px;
 
 }
 
@@ -23,10 +24,11 @@ body
 {
 	text-align: center;
 	font-family: Arial;
-	padding: 5px; 
 	display: inline-block;
 	grid-template-columns: 100%;
-	margin-left: 400px;
+	margin-right: 300px;
+	
+
 }
 
 /* Drop button in topmenu in Index.html. */
@@ -39,6 +41,7 @@ body
 	border: none;
 	cursor: pointer;   /* The cursor is a pointer and indicates a link. */
 	border-right: 1px solid dimgray;
+	
 	
 }
 .topMenu.dropdown.dropbtn:last-child

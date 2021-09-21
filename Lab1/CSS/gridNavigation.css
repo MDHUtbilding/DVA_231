@@ -4,8 +4,9 @@
     display: grid;
     grid-template-columns: 100px auto auto;
     grid-gap: 10px;
-    max-width: 1380px;
+    max-width: 1414px;
     padding: 10px;
+   
 }
 
 .gridNavigation > div
@@ -14,6 +15,7 @@
     text-align: center;
     padding: 20px 0;
     font-size: 30px;
+   
 }
 
 .nasaLogo
