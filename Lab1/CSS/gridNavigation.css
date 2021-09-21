@@ -4,8 +4,9 @@
     display: grid;
     grid-template-columns: 100px auto auto;
     grid-gap: 10px;
-    max-width: 1414px;
+    max-width: 1400px;
     padding: 10px;
+    margin-left: 30px;
    
 }
 

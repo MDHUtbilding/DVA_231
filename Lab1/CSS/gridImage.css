@@ -119,7 +119,6 @@
 	opacity: 0.5;
 	content:"";
 }
-
 .textWrap:hover
 {
     	margin: 0px 0px;
@@ -132,3 +131,4 @@
     	opacity: 0.5;
     	content: attr(moreText);
 }
+

@@ -26,7 +26,8 @@ body
 	font-family: Arial;
 	display: inline-block;
 	grid-template-columns: 100%;
-	margin-right: 300px;
+	margin-left: 200px;
+	padding-left: 50px;
 	
 
 }
@@ -37,7 +38,7 @@ body
 	background-color: #000000;
 	color: white;
 	font-size: 16px;
-	padding: 10px;
+	padding: 5px;
 	border: none;
 	cursor: pointer;   /* The cursor is a pointer and indicates a link. */
 	border-right: 1px solid dimgray;

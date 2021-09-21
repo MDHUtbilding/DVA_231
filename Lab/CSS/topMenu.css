@@ -26,7 +26,8 @@ body
 	padding: 5px; 
 	display: inline-block;
 	grid-template-columns: 100%;
-	margin-left: 400px;
+	margin-right: 100px;
+	width: 100%;
 }
 
 /* Drop button in topmenu in Index.html. */
