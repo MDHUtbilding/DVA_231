@@ -1,36 +1,37 @@
-/* The CSS file that controls Index.html. */
+/* 
+   File name: topMenu.css
+   Purpose: With the help of CSS for HTML creates the top navigation bar.
+            When clicked on each tabs, a blue menu opens up for more links.
+*/
 
 /* The color of the page will be black. Main font is Arial. */
 body 
 {  
-	background-color: black;
-	font-family: Arial;
+    background-color: black;
+    font-family: Arial;
 }  
 
 .topcontainer
 {
-	display: grid;
-	grid-gap: 10px;
-	width: 100%;	
-	padding-left: 10px;
-	padding-right: 10px;
-	padding-top: 20px;
-	margin-right: -200px;
-
+    display: grid;
+    grid-gap: 10px;
+    width: 100%;	
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 20px;
+    margin-right: -200px;
 }
 
 /* In the top menu in Index.html we have this properties. */
 #topMenu
 {
-	text-align: center;
-	font-family: Arial;
-	display: inline-block;
-	grid-template-columns: 100%;
+    text-align: center;
+    font-family: Arial;
+    display: inline-block;
+    grid-template-columns: 100%;
 	margin-left: 200px;
-	padding-left: 50px;
-	width: 900px;
-	
-
+    width: 1100px;
+	margin-right: 200px;
 }
 
 /* Drop button in topmenu in Index.html. */
@@ -50,103 +51,110 @@ body
 .topMenu.dropbtn:last-child
 {
 	border: 0  !important;
+    color: rgb(10, 8, 8);
+    font-size: 16px;
+    padding: 2px;
+    border: none;
+    cursor: pointer;   /* The cursor is a pointer and indicates a link. */
+    border-right: 1px solid dimgray;	
+}
+
+.topMenu.dropdown.dropbtn:last-child
+{
+    border-right: none;
 }
 
 /* The main drop down properties. */
 .dropdown
 {
-	position: relative; /* Positioned relative to its normal position. */
-	display: inline-block;  /* The element itself is formated as an inline element, but it can apply height and width values. */
-	
+    position: relative; /* Positioned relative to its normal position. */
+    display: inline-block;  /* The element itself is formated as an inline element, but it can apply height and width values. */	
 }
 
 /* The content in the drop down menu. */
 .dropdown-content 
 {
-	display: none;	/* No boxes are generated for it. */
-	position: absolute;	/* Position element relative to the nearest positioned ancestor. */
-	background-color: blue;
-	min-width: 160px;	/* Defines the minimum width of an element. */
-	box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);	/* Add shadows. */
-	z-index: 1;	/* The stacking level of an element. */
+    display: none;	/* No boxes are generated for it. */
+    position: absolute;	/* Position element relative to the nearest positioned ancestor. */
+    background-color: blue;
+    min-width: 160px;	/* Defines the minimum width of an element. */
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);	/* Add shadows. */
+    z-index: 1;	/* The stacking level of an element. */
 }
 
 /* The link(s) in drop down menu. */
 .dropdown-content a 
 {
-	color: white;
-	padding: 12px 16px;	/* Create space around an element's content, inside of any defined borders. */
-	text-decoration: none;
-	display: block;
+    color: white;
+    padding: 12px 16px;	/* Create space around an element's content, inside of any defined borders. */
+    text-decoration: none;
+    display: block;
 }
 
 /* When dropbtn pressed, properties for link. */
 .dropdown-content a:hover
 {
-	background-color: #00008B;
+    background-color: #00008B;
 }
 
 /* When dropbtn pressed, hover content. */
 .dropdown:hover .dropdown-content
 {
-	display: block;	/* Renders an element with parent’s full width available. */
+    display: block;	/* Renders an element with parent’s full width available. */
 }
 
 /* The drop down menu botton. */
 .dropdown:hover .dropbtn 
 {
-	background-color: blue;
+    background-color: blue;
 }
 
 #topMenu .search-container 
 {
-	float: right;
+    float: right;
 }
 
 #topMenu input[type=text] 
 {
-	padding: 6px;
-  
-  	font-size: 17px;
-  	border: none;
-	background-color: #444444;
+    padding: 6px;
+    font-size: 17px;
+    border: none;
+    background-color: #444444;
 }
 
 #topMenu .search-container button 
 {
-  	float: right;
-  	padding: 6px 10px;
-  	
-  	background: #444444;
-  	font-size: 17px;
-  	border: none;
-  	cursor: pointer;
+    float: right;
+    padding: 6px 10px;
+    background: #444444;
+    font-size: 17px;
+    border: none;
+    cursor: pointer;
 }
 
 #topMenu .search-container button:hover 
 {
-	background: #444444;
+    background: #444444;
 }
 
 @media screen and (max-width: 600px)
 {
-	#topMenu .search-container 
-	{
-    		float: none;
-  	}
+    #topMenu .search-container 
+    {
+        float: none;
+    }
   
-	#topMenu a, #topMenu input[type=text], #topMenu .search-container button 
-	{
-    		float: none;
-    		display: block;
-    		text-align: left;
-    		width: 100%;
- 
-    		padding: 14px;
-  	}
+    #topMenu a, #topMenu input[type=text], #topMenu .search-container button 
+    {
+        float: none;
+    	display: block;
+    	text-align: left;
+    	width: 100%;
+	padding: 14px;
+    }
   	
-	#topMenu input[type=text] 
-	{
-    		border: 1px solid #444444;  
-  	}
+    #topMenu input[type=text] 
+    {
+        border: 1px solid #444444;  
+    }
 }
