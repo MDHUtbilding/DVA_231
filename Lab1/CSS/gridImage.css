@@ -1,12 +1,13 @@
 .gridImage
 {
-    background-color: red;
+    background-color: rgb(20, 15, 15);
     display: grid;
     grid-template-columns: 350px 350px 350px 350px;
     grid-template-rows: 250px 250px 250px 250px;
     grid-gap: 10px;  
     max-width: 1440px;
     padding: 10px;
+    margin-left: 20px;
 }
 
 .gridImage > div

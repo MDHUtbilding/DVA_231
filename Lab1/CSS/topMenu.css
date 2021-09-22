@@ -37,20 +37,20 @@ body
 .dropbtn
 {
 	
-	color: rgb(10, 8, 8);
+	color: rgb(253, 243, 243);
+	background: black;
+	padding: 5px;
 	font-size: 16px;
-	padding: 2px;
 	border: none;
 	cursor: pointer;   /* The cursor is a pointer and indicates a link. */
 	border-right: 1px solid dimgray;
 	
 	
 }
-.topMenu.dropdown.dropbtn:last-child
+.topMenu.dropbtn:last-child
 {
-	border-right: none;
+	border: 0  !important;
 }
-
 
 /* The main drop down properties. */
 .dropdown
