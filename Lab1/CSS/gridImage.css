@@ -3,6 +3,7 @@
     background-color: rgb(20, 15, 15);
     background-color: #000000;
     display: grid;
+    margin: auto;
     grid-template-columns: 350px 350px 350px 350px;
     grid-template-rows: 250px 250px 250px 250px;
     grid-gap: 10px;  
