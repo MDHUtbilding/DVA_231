@@ -1,0 +1,134 @@
+.gridImage
+{
+    background-color: rgb(20, 15, 15);
+    background-color: #000000;
+    display: grid;
+    grid-template-columns: 350px 350px 350px 350px;
+    grid-template-rows: 250px 250px 250px 250px;
+    grid-gap: 10px;  
+    max-width: 1440px;
+    padding: 10px;
+    margin-left: 20px;
+}
+
+.gridImage > div
+{
+    text-align: center;
+    font-size: 30px;
+}
+
+.image1
+{
+    grid-column-start: 1;
+    grid-column-end: 5;
+    grid-row-start: 1;
+    grid-row-end: 2;
+    width: 100%;
+    height: 100%;
+    object-fit: fill;
+}
+
+.image2
+{
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 2;
+    grid-row-end: 2;
+    background-image: url(../Img/climatetool.JPG);
+    background-size: 350px 250px;
+    background-repeat: no-repeat;
+    border: 5px solid #000;
+}
+
+.image3
+{
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 2;
+    grid-row-end: 3;
+    background-image: url(../Img/carpic.JPG);
+    background-size: 350px 250px;
+    background-repeat: no-repeat;
+    border: 5px solid #000;
+}
+
+.image4
+{
+    grid-column-start: 3;
+    grid-column-end: 5;
+    grid-row-start: 2;
+    grid-row-end: 3;
+    width: 100%;
+    height: 100%;
+}
+
+#image4attr
+{
+    width:100%;
+    height:100%;
+    border: 1px solid rgb(0, 0, 0);
+}
+
+.image5
+{
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 3;
+    grid-row-end: 3;
+    background-image: url(../Img/airtaxi.JPG);
+    background-size: 350px 250px;
+    background-repeat: no-repeat;
+    border: 5px solid #000;
+}
+
+.image6
+{
+    grid-column-start: 2;
+    grid-column-end: 4;
+    grid-row-start: 3;
+    grid-row-end: 3;
+    background-image: url(../Img/hurricane.JPG);
+    background-size: 700px 250px;
+    background-repeat: no-repeat;
+    border: 0.5px solid #000;
+}
+
+.image7
+{
+    grid-column-start: 4;
+    grid-column-end: 5;
+    grid-row-start: 3;
+    grid-row-end: 3;
+}
+
+.carouselImg
+{
+    display: none;
+    width: 100%;
+    height: 100%;
+}
+
+.textWrap
+{
+	margin: 200px 0px;
+	width: 100%;
+	height: 42px;
+	background: white;
+	color: black;
+	border-left: 1px solid #000;
+	color: transparent;
+	opacity: 0.5;
+	content:"";
+}
+.textWrap:hover
+{
+    	margin: 0px 0px;
+    	width: 100%;
+    	height: 100%;
+    	float: right;
+    	background: white;
+    	color: black;
+    	border-left: 2px solid #000;
+    	opacity: 0.5;
+    	content: attr(moreText);
+}
