@@ -57,6 +57,7 @@ form
 
 .container content
 {
+    display: grid;
     margin-left: 300px;
     margin-right: 300px;
     background-color: ghostwhite;
@@ -73,8 +74,13 @@ form label
 {
     margin-bottom: 20px;
 }
-form input
+form .newsfile
 {
     margin-left: 100px;
+}
+
+form .Apply
+{
+    margin-left: 50px;
 }
 
