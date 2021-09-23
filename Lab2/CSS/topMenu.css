@@ -166,3 +166,23 @@ body
 	float: right;
 }
 
+.adminlink ul
+{
+    list-style-type: none;
+}
+
+.adminlink ul li
+{
+    background: black;
+
+}
+.adminlink ul li a
+{
+    color: ghostwhite;
+}
+
+.adminlink ul li a:hover
+{
+    background: gold;
+    color: black;
+}
