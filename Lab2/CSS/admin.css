@@ -73,4 +73,8 @@ form label
 {
     margin-bottom: 20px;
 }
+form input
+{
+    margin-left: 100px;
+}
 
