@@ -5,9 +5,72 @@ body
 
 h1
 {
-    font-family: sans-serif;
-    font-style: italic;
+    font-family: serif;
+    font-style:italic;
     color: darkblue;
     font-size: 25px;
     text-align: center;
+    padding-top: 15px;
+    
 }
+
+nav
+{
+    background-color: dimgrey;
+    padding: 20px;
+    border: 5px solid black;
+}
+
+nav ul
+{
+    list-style-type: none;
+}
+
+nav ul li
+{
+    border: none;
+}
+
+nav ul li a
+{
+    color: ghostwhite;
+}
+
+nav ul li a:hover
+{
+    background-color: rgb(54, 54, 90);
+}
+form
+{
+    border: goldenrod;
+
+}
+
+.container
+{
+    display: grid;
+    grid-template-rows: 100%;
+    grid-template-columns: 100%;
+    margin-left: 200px;
+    margin-right: 200px;
+}
+
+.container content
+{
+    margin-left: 300px;
+    margin-right: 300px;
+    background-color: ghostwhite;
+    padding: 200px;
+    height: 500px;
+}
+
+.content form
+{
+    text-align: center;
+}
+
+form label
+{
+    margin-bottom: 20px;
+}
+
