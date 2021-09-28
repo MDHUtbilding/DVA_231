@@ -29,6 +29,18 @@
     object-fit: fill;
 }
 
+.text-topnews
+{
+    position: absolute;
+    background-color: ghostwhite;
+    color: black;
+    text-align: center;
+    height: 25pt;
+    width: 100%;
+    font-size: 15pt;
+    padding-top: 3pt;
+}
+
 .image2
 {
     grid-column-start: 1;

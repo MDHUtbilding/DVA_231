@@ -1,9 +1,16 @@
+var myIndex = 0;
+	carousel();
 
-function createTopNews()
+function createTopNews(index, start)
 {
     div=$("<div />", 
     {
         "class": "image1"
+    });
+    var title=$("<p />" ,
+    {
+        "class": "text-topnews",
+        text:news[index]['title'] 
     });
 }
 
@@ -12,7 +19,7 @@ function addNews()
 
 }
 
-function carousel()
+function carousel() //swapping topnews
 	{
             var i;
 	    var x = document.getElementsByClassName("carouselImg");
