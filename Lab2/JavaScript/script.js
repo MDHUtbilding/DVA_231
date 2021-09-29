@@ -16,6 +16,7 @@ function createTopNews(index, start) //creating the news at the top that will be
         text:news[index]['title'] 
     });
 
+    $("#image1").append(div);
     $("#image1").append(title);
 }
 
