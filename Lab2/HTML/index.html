@@ -152,15 +152,40 @@
 
     <div class="image2">
 		<div class="textWrap">
-			<!--
-			<div class="moreText">-->
-				NASA Eart Science Divison has many online tools to help understand and track climate change. Sea Level Projection Tool allows the user to 
-					visualize and project the global sea levels. Sea Level and Evaluation Assessment Tool provides data for assesing sea level and its causes.
-					Earth Observatory: Fires tool is a collection of current wildfires and natural disasters. 
-			<!--</div> -->
+			
+			<div id="moreText">
+				
+			</div>
 		</div>
-		
     </div>
+
+    <script>
+        fetch('../JSON/people.json')
+            .then(function (response)
+            {
+                return response.json();
+            })
+            .then(function (data) 
+            {
+                appendData(data);
+            })
+            .catch(function (err) 
+            {
+                console.log('error: ' + err);
+            });
+
+        function appendData(data) 
+        {
+            var mainContainer = document.getElementById("moreText");
+            for (var i = 0; i < data.length; i++) 
+            {
+                var div = document.createElement("div");
+                div.innerHTML = 'Content: ' + data[i].content;
+                mainContainer.appendChild(div);
+            }
+        }
+    </script>
+    
 
     <div class="image3">
         <div class="textWrap">
@@ -204,6 +229,8 @@
 	    	allowfullscreen></iframe>
         </div>
     </div>
+
+   <div id="myData"></div>
 </div>
 
 </body>
