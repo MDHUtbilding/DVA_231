@@ -1,15 +1,21 @@
 {
     "freshNews":[
         {
-
+            "title": "Hubble Shows Winds in Jupiter's Great Red Spot Are Speeding Up",
+            "imgurl": "../Img/windsatjupiter.JPG",
+            "content": "Researchers analyzing Hubble's regular storm reports found that the average wind speed has increased up to 8 percent from 2009 to 2020"
         },
 
         {
-
+            "title": "NASA Satellites Show How Clouds Respond to Arctic Sea Ice Change",
+            "imgurl": "../Img/clouds.JPG",
+            "content": "A new research shows low clouds over the polynya emitted more energy or heat than clouds in adjacent areas covered by sea ice. Those low clouds contained more liquid water than clouds over nearby ice. "
         },
 
         {
-
+            "title": "NASA Confirms Thousands of Massive, Ancient Volcanic Eruptions on Mars",
+            "imgurl": "../Img/volcanomars.JPG",
+            "content": "Scientists found evidence that a region of northern Mars called Arabia Terra experienced thousands of super eruptions, the biggest volcanic eruptions known, over a 500-million year period. Some volcanos can produce eruptions so powerful they can release oceans of dust and toxic gases into the air, blocking out sunlight and changing a planet's climate for decades."
         },
 
         {
