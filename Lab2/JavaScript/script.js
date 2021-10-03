@@ -4,7 +4,7 @@ var news=[];
 
 	carousel();
 
-function createTopNews(index, start) //creating the news at the top that will be swapped
+function createTopNews(index) //creating the news at the top that will be swapped
 {
     div=$("<div />", 
     {
@@ -23,6 +23,8 @@ function createTopNews(index, start) //creating the news at the top that will be
 $getJSON("php/readnews.php", function addNews(data) //adding all the news to the gridboxes
 {
     news=data['news'];
+    createTopNews(0);
+    
 });
 
 function carousel() //swapping topnews
