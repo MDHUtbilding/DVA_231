@@ -14,6 +14,36 @@
             "title":"Europe Wants Ideas for Cave-Spelumking Moon Robots", 
             "imgurl":"../Img/cave.jpg",
             "content":"As NASA makes a big push to land humans on the moon's surface by 2024, the European Space Agency (ESA) wants to learn more about the lunar caves that lie beneath."
+        },
+        {
+            "title": "Tools for Understanding Climate and Wildfires",
+            "imgurl": "../Img/climatetoolx",
+            "content": "NASA Eart Science Divison has many online tools to help understand and track climate change. Sea Level Projection Tool allows the user to visualize and project the global sea levels. Sea Level and Evaluation Assessment Tool provides data for assesing sea level and its causes. Earth Observatory: Fires tool is a collection of current wildfires and natural disasters. "
+        },
+        {
+            "title": "NASA Finds 2021 Arctic Summer Sea Ice 12th-lowest on Record",
+            "imgurl": "../Img/arcticsummer.JPG",
+            "content": "Sea ice in Arctic has hit its annual minimum extent on September 16, 2021. The summertime extent is the 12th-lowest in satelite record. The Arctic sea ice dropped to 4.72 million square kilometers."
+        },
+        {
+            "title": "Lucy Is Going To Space!",
+            "imgurl": "../Img/lucyisgoingtospace.JPG",
+            "content": "Lucy will be the first space mission to study the Trojans. She will be launced in October 2021 and with boosts from the Earth's gravity, she will complete a 12 year journey to eight different asteroids."
+        },
+        {
+            "title": "Huge Rings Around A Black Hole",
+            "imgurl": "../Img/hugerings.JPG",
+            "content": "A spectacular set of huge rings around a black hole has been captured using NASA's Chandra X-Ray Observatory and Neil Gehrels Swift Observatory. The X-ray images of the giant rings have revealed new information about dust, located in our Galaxy, using a similar principle to the X-rays performed in a doctor's office and at airports."
+        },
+        {
+            "title": "Artificial Intelligence Helps Improve NASA's Eyes on the Sun",
+            "imgurl": "../Img/sunJPG",
+            "content": "A group of researchers is using artificial intelligence techniques to calibrate some of NASA's images of the Sun, helping improve the data that sicentists use for solar research."
+        },
+        {
+            "title": "NASA Begins Air Taxi Flight Testing with Joby",
+            "imgurl": "../Imgairtaxi2.JPG",
+            "content": "NASA began flight testing with Joby Aviation's all-electric vertical takeoff and landing aircraft (eVTOL) as a part of the agency's Advanced Air Mobility National Campaign. This is the first time NASA will test an eVTOL aircraft as part of the campaign. In the future, eVTOL aircraft could serve as airtaxis."
         }
         ]
 }
