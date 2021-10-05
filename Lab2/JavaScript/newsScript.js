@@ -1,8 +1,10 @@
 var news = [];
+var i;
 
 $.getJSON("PHP/readnews.php", function AddNews(data)
 {
     news=data['news'];
+    CreateTopNews(i);
 
 })
 
