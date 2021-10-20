@@ -35,10 +35,7 @@
     grid-column-end: 2;
     grid-row-start: 2;
     grid-row-end: 2;
-    background-image: url(../Img/climatetool.JPG);
-    background-size: 350px 250px;
-    background-repeat: no-repeat;
-    border: 5px solid #000;
+    
 }
 
 .image3
